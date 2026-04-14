@@ -1,0 +1,5 @@
+{
+  "jdk.jdkhome": "/opt/java/21/usr/lib/jvm/java-21-openjdk-amd64",
+  "jdk.project.jdkhome": "/opt/java/21/usr/lib/jvm/java-21-openjdk-amd64",
+  "java.jdt.ls.java.home": "/opt/java/21/usr/lib/jvm/java-21-openjdk-amd64"
+}
