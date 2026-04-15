@@ -1,3 +1,9 @@
+'''
+    Author: Ishaan Rastogi
+    Date: 14-04-2026
+    Purpose: Basics of Python, Variables, and Data Types
+'''
+
 print("Hello, World!")
 
 # Variables and Data Types

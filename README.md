@@ -25,13 +25,13 @@
 
 | S. No. | File Name | Purpose | Date |
 | --- | --- | --- | --- |
-| 1 | [P1.py](python/P1.py) | Basics of Python, Variables, and Data Types | 2026-04-15 |
+| 1 | [P1.py](python/P1.py) | Basics of Python, Variables, and Data Types | 14-04-26 |
 
 ### 2. [Java](src/)
 
 | S. No. | File Name | Purpose | Date |
 | --- | --- | --- | --- |
-| 1 | [J1.java](src/J1.java) | Basics of Java, Variables, and Data Types | 2026-04-15 |
+| 1 | [J1.java](src/J1.java) | Basics of Java, Variables, and Data Types | 14-04-26 |
 
 ## Repository Map
 
