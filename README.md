@@ -21,13 +21,17 @@
 
 ## Quick Index
 
-| Path | Type | Purpose |
-| --- | --- | --- |
-| [README.md](README.md) | Document | Project overview and navigation |
-| [python/](python/) | Folder | Python solutions |
-| [python/P1.py](python/P1.py) | File | Python practice file |
-| [src/](src/) | Folder | Java source files |
-| [src/J1.java](src/J1.java) | File | Java practice file |
+### 1. [Python](python/)
+
+| S. No. | File Name | Purpose | Date |
+| --- | --- | --- | --- |
+| 1 | [P1.py](python/P1.py) | Basics of Python, Variables, and Data Types | 2026-04-15 |
+
+### 2. [Java](src/)
+
+| S. No. | File Name | Purpose | Date |
+| --- | --- | --- | --- |
+| 1 | [J1.java](src/J1.java) | Basics of Java, Variables, and Data Types | 2026-04-15 |
 
 ## Repository Map
 
@@ -35,25 +39,7 @@
 PyJ-DSA/
 ├── README.md
 ├── python/
-│   └── P1.py
 └── src/
-    ├── J1.class
-    └── J1.java
 ```
 
-## What Lives Where
-
-- 🔵 Python lives in [python/](python/).
-- 🟠 Java lives in [src/](src/).
-- [src/J1.class](src/J1.class) is a compiled artifact and not meant to be edited directly.
-
-## Adding New Work
-
-1. Put Python solutions in [python/](python/).
-2. Put Java solutions in [src/](src/).
-3. Keep file names descriptive so the index stays readable as the repo grows.
-
-## Notes
-
-- The repository is intentionally minimal, so the README acts as the main landing page.
-- If you add more problems, extend the quick index with direct links to each new file.
+🔰 <i> The repository is intentionally minimal, so the README acts as the main landing page. </i>
