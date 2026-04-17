@@ -18,7 +18,8 @@ class J1 {
 
         System.out.println(); // This will move to the next line
 
-        // ---------------------------------- VARIABLES -----------------------------------
+        // ---------------------------------- VARIABLES
+        // -----------------------------------
 
         // Create & Declare a variable
         int age;
@@ -29,19 +30,21 @@ class J1 {
 
         // Create, Declare & Initialize a variable in one line
         int totalMarks = 20;
-        
+
         // Case sensitive
         int weight = 80;
         int Weight = 90; // This is a different variable from 'weight'
-        
-        '''
-        Variable name rules
-        1. Can only contain letters, digits, underscores, and dollar signs
-        2. Cannot start with a digit ( Compilation error)
-        3. Cannot be a reserved keyword (Compilation error)
-        4. Cannot contain spaces (Compilation error)
-        '''
-        // FUN FACT: Main is not a reserved keyword because it is a special method name in Java
+
+        /*
+            Variable name rules
+            1. Can only contain letters, digits, underscores, and dollar signs
+            2. Cannot start with a digit ( Compilation error)
+            3. Cannot be a reserved keyword (Compilation error)
+            4. Cannot contain spaces (Compilation error)
+         
+            FUN FACT: Main is not a reserved keyword because it is a special method name
+            in Java
+        */
 
         // Convention in every language is to use camelCase for variable names
         int myVariableName = 10;
