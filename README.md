@@ -3,6 +3,7 @@
 <p align="center">
 	<strong>DSA practice in Java and Python.</strong><br>
 	A small, tidy workspace for storing problem solutions and keeping the language tracks easy to navigate.
+	This repo also contains OOPs codes in both the programming languages to be stored at one place.
 </p>
 
 <p align="center">
