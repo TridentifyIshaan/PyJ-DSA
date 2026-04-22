@@ -184,6 +184,26 @@
 | --- | --- | --- | --- |
 | 1 | [J1.java](src/1.%20Java%20Basics/J1.java) | Basics of Java, Variables, and Data Types | 14/04/2026 |
 | 2 | [J2.java](src/1.%20Java%20Basics/J2.java) | Types of Operators | 17/04/2026 |
+| 3 | [J3.java](src/1.%20Java%20Basics/J3.java) | To showcase input of different datatypes | 18/04/2026 |
+| 4 | [J4.java](src/1.%20Java%20Basics/J4.java) | To showcase conditionals in Java | 18/04/2026 |
+| 5 | [J5.java](src/1.%20Java%20Basics/J5.java) | To showcase loops in java | 18/04/2026 |
+| 6 | [J6.java](src/1.%20Java%20Basics/J6.java) | To print numbers from 1 to n and n to 1 respectively | 20-04-2026 |
+| 7 | [J7.java](src/1.%20Java%20Basics/J7.java) | To print the 10 multiples of n | 20-04-2026 |
+| 8 | [J8.java](src/1.%20Java%20Basics/J8.java) | To print the sum of first n natural numbers | 20-04-2026 |
+| 9 | [J9.java](src/1.%20Java%20Basics/J9.java) | To print all the numbers divisible by 7 within the range of 50 to 100 | 20-04-2026 |
+| 10 | [J10.java](src/1.%20Java%20Basics/J10.java) | To print the prime numbers in range 1 to 100 | 20-04-2026 |
+
+#### 2. Java Patterns
+
+| S. No. | File Name | Purpose | Date |
+| --- | --- | --- | --- |
+| 1 | [J1.java](src/2.%20Java%20Patterns/J1.java) | N/A | N/A |
+| 2 | [J2.java](src/2.%20Java%20Patterns/J2.java) | N/A | N/A |
+| 3 | [J3.java](src/2.%20Java%20Patterns/J3.java) | N/A | N/A |
+| 4 | [J4.java](src/2.%20Java%20Patterns/J4.java) | N/A | N/A |
+| 5 | [J5.java](src/2.%20Java%20Patterns/J5.java) | N/A | N/A |
+| 6 | [J6.java](src/2.%20Java%20Patterns/J6.java) | N/A | N/A |
+| 7 | [J7.java](src/2.%20Java%20Patterns/J7.java) | N/A | N/A |
 
 ## Repository Map
 
