@@ -197,13 +197,13 @@
 
 | S. No. | File Name | Purpose | Date |
 | --- | --- | --- | --- |
-| 1 | [J1.java](src/2.%20Java%20Patterns/J1.java) | N/A | N/A |
-| 2 | [J2.java](src/2.%20Java%20Patterns/J2.java) | N/A | N/A |
-| 3 | [J3.java](src/2.%20Java%20Patterns/J3.java) | N/A | N/A |
-| 4 | [J4.java](src/2.%20Java%20Patterns/J4.java) | N/A | N/A |
-| 5 | [J5.java](src/2.%20Java%20Patterns/J5.java) | N/A | N/A |
-| 6 | [J6.java](src/2.%20Java%20Patterns/J6.java) | N/A | N/A |
-| 7 | [J7.java](src/2.%20Java%20Patterns/J7.java) | N/A | N/A |
+| 1 | [J1.java](src/2.%20Java%20Patterns/J1.java) | Java Pattern 1 | 22/04/2026 |
+| 2 | [J2.java](src/2.%20Java%20Patterns/J2.java) | Java Pattern 2 | 22/04/2026 |
+| 3 | [J3.java](src/2.%20Java%20Patterns/J3.java) | Java Pattern 3 | 22/04/2026 |
+| 4 | [J4.java](src/2.%20Java%20Patterns/J4.java) | Java Pattern 4 | 22/04/2026 |
+| 5 | [J5.java](src/2.%20Java%20Patterns/J5.java) | Java Pattern 5 | 22/04/2026 |
+| 6 | [J6.java](src/2.%20Java%20Patterns/J6.java) | Java Pattern 6 | 22/04/2026 |
+| 7 | [J7.java](src/2.%20Java%20Patterns/J7.java) | Java Pattern 7 | 22/04/2026 |
 
 ## Repository Map
 
