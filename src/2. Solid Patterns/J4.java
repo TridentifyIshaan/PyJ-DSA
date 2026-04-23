@@ -1,7 +1,7 @@
 /*
 > Date Created: 23/04/2026 
 > Author: Ishaan Rastogi
-> Purpose: Java Pattern 4
+> Purpose: To print a solid rhombus pattern
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: 100% Working
 */
@@ -13,12 +13,11 @@ class J4 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of rows: ");
         int n = sc.nextInt();
-        for (int i = 0; i < n; ++i) {
-            int n2;
-            for (n2 = 0; n2 < n - i; ++n2) {
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= n - i; j++) {
                 System.out.print(" ");
             }
-            for (n2 = 0; n2 <= i; ++n2) {
+            for (int k = 1; k <= n; k++) {
                 System.out.print("* ");
             }
             System.out.println();

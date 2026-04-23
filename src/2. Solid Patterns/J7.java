@@ -1,7 +1,7 @@
 /*
 > Date Created: 23/04/2026 
 > Author: Ishaan Rastogi
-> Purpose: Java Pattern 7
+> Purpose: To print an inverted pyramid
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: 100% Working
 */
@@ -13,15 +13,15 @@ class J7 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of rows in the pyramid: ");
         int n = sc.nextInt();
-        for (int i = 1; i <= n; ++i) {
-            int n2;
-            for (n2 = 1; n2 <= i - 1; ++n2) {
-                System.out.print("  ");
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i - 1; j++) {
+                System.out.print(" ");
             }
-            for (n2 = 1; n2 <= 2 * (n - i) + 1; ++n2) {
+            for (int k = 1; k <= 2 * (n - i) + 1; k++) {
                 System.out.print("* ");
             }
             System.out.println();
         }
+        sc.close();
     }
 }
