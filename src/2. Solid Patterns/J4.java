@@ -9,10 +9,10 @@
 import java.util.Scanner;
 
 class J4 {
-    public static void main(String[] stringArray) {
-        Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of rows: ");
-        int n = scanner.nextInt();
+        int n = sc.nextInt();
         for (int i = 0; i < n; ++i) {
             int n2;
             for (n2 = 0; n2 < n - i; ++n2) {

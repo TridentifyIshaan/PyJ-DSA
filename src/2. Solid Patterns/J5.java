@@ -9,10 +9,10 @@
 import java.util.Scanner;
 
 class J5 {
-    public static void main(String[] stringArray) {
-        Scanner scanner = new Scanner(System.in);
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the length of the equal side of right-angled triangle: ");
-        int n = scanner.nextInt();
+        int n = sc.nextInt();
         for (int i = 1; i <= n; ++i) {
             for (int j = 1; j <= n - i + 1; ++j) {
                 System.out.print("* ");
