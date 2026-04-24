@@ -30,7 +30,7 @@
 | --- | --- | --- | --- |
 | 1 | [1.py](python/1.%20Modules,%20Comments,%20Pip/1.py) | To print a random joke using the pyjokes library | 02/07/2025 |
 | 2 | [2.py](python/1.%20Modules,%20Comments,%20Pip/2.py) | To print the table of 21 using REPL | 02/07/2025 |
-| 3 | [3.py](python/1.%20Modules,%20Comments,%20Pip/3.py) | To convert text to speech using gTTS (Google Text-to-Speech) | 02/07/2025 |
+| 3 | [3.py](python/1.%20Modules,%20Comments,%20Pip/3.py) | To speak the text entered by the user using pyttsx3 | 24/04/2026 |
 | 4 | [4.py](python/1.%20Modules,%20Comments,%20Pip/4.py) | To print the contents of a directory using os module. | 02/07/2025 |
 
 #### 2. Variables & Datatypes
