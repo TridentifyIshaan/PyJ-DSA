@@ -1,24 +1,28 @@
 /*
-> Date Created: 23/04/2026 
+> Date Created: 
 > Author: Ishaan Rastogi
-> Purpose: To print an inverted pyramid
+> Purpose: To print a hollow pyramid pattern
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: 100% Working
 */
 
-import java.util.Scanner;
+import java.util.*;
 
-class J7 {
+class J4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of rows in the pyramid: ");
         int n = sc.nextInt();
         for (int i = 1; i <= n; i++) {
-            for (int j = 1; j <= i - 1; j++) {
+            for (int j = 1; j <= n - i; j++) {
                 System.out.print("  ");
             }
-            for (int k = 1; k <= 2 * (n - i) + 1; k++) {
-                System.out.print("* ");
+            for (int k = 1; k <= 2 * i - 1; k++) {
+                if (k == 1 || k == 2 * i - 1 || i == n) {
+                    System.out.print("* ");
+                } else {
+                    System.out.print("  ");
+                }
             }
             System.out.println();
         }

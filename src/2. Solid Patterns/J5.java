@@ -19,6 +19,5 @@ class J5 {
             }
             System.out.println();
         }
-        sc.close();
     }
 }
