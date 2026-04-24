@@ -193,17 +193,28 @@
 | 9 | [J9.java](src/1.%20Java%20Basics/J9.java) | To print all the numbers divisible by 7 within the range of 50 to 100 | 20-04-2026 |
 | 10 | [J10.java](src/1.%20Java%20Basics/J10.java) | To print the prime numbers in range 1 to 100 | 20-04-2026 |
 
-#### 2. Java Patterns
+#### 2. Solid Patterns
 
 | S. No. | File Name | Purpose | Date |
 | --- | --- | --- | --- |
-| 1 | [J1.java](src/2.%20Java%20Patterns/J1.java) | Java Pattern 1 | 22/04/2026 |
-| 2 | [J2.java](src/2.%20Java%20Patterns/J2.java) | Java Pattern 2 | 22/04/2026 |
-| 3 | [J3.java](src/2.%20Java%20Patterns/J3.java) | Java Pattern 3 | 22/04/2026 |
-| 4 | [J4.java](src/2.%20Java%20Patterns/J4.java) | Java Pattern 4 | 22/04/2026 |
-| 5 | [J5.java](src/2.%20Java%20Patterns/J5.java) | Java Pattern 5 | 22/04/2026 |
-| 6 | [J6.java](src/2.%20Java%20Patterns/J6.java) | Java Pattern 6 | 22/04/2026 |
-| 7 | [J7.java](src/2.%20Java%20Patterns/J7.java) | Java Pattern 7 | 22/04/2026 |
+| 1 | [J1.java](src/2.%20Solid%20Patterns/J1.java) | To print a solid square pattern | 22/04/2026 |
+| 2 | [J2.java](src/2.%20Solid%20Patterns/J2.java) | To print a solid rectangle pattern | 22/04/2026 |
+| 3 | [J3.java](src/2.%20Solid%20Patterns/J3.java) | To print a right equilateral triangle pattern | 23/04/2026 |
+| 4 | [J4.java](src/2.%20Solid%20Patterns/J4.java) | To print a solid rhombus pattern | 23/04/2026 |
+| 5 | [J5.java](src/2.%20Solid%20Patterns/J5.java) | To print an inverted right equilateral triangle pattern | 23/04/2026 |
+| 6 | [J6.java](src/2.%20Solid%20Patterns/J6.java) | To print a pyramid | 23/04/2026 |
+| 7 | [J7.java](src/2.%20Solid%20Patterns/J7.java) | To print an inverted pyramid | 23/04/2026 |
+| 8 | [J8.java](src/2.%20Solid%20Patterns/J8.java) | To print a solid diamond pattern (pyramid + inverse pyramid) | 24/04/2026 |
+
+#### 3. Hollow Patterns
+
+| S. No. | File Name | Purpose | Date |
+| --- | --- | --- | --- |
+| 1 | [J1.java](src/3.%20Hollow%20Patterns/J1.java) | To print hollow square pattern | 24/04/2026 |
+| 2 | [J2.java](src/3.%20Hollow%20Patterns/J2.java) | To print a rectangle hollow pattern | 24/04/2026 |
+| 3 | [J3.java](src/3.%20Hollow%20Patterns/J3.java) | To print a right-angled triangle hollow pattern | 24/04/2026 |
+| 4 | [J4.java](src/3.%20Hollow%20Patterns/J4.java) | To print a hollow pyramid pattern | 24/04/2026 |
+| 5 | [J5.java](src/3.%20Hollow%20Patterns/J5.java) | To print a hollow diamond pattern (pyramid + inverse pyramid) | 24/04/2026 |
 
 ## Repository Map
 

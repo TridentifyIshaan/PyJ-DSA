@@ -1,5 +1,5 @@
 /*
-> Date Created: 
+> Date Created: 24/04/2026
 > Author: Ishaan Rastogi
 > Purpose: To print a solid diamond pattern (pyramid + inverse pyramid)
 > Operating System: This is only for Windows OS, it may or may not work on other OS
