@@ -1,19 +1,16 @@
 '''
-> Date Created: 02/07/2025
+> Date Created: 24/04/2026
 > Author: Ishaan Rastogi
-> Purpose: To convert text to speech using gTTS (Google Text-to-Speech)
+> Purpose: To speak the text entered by the user using pyttsx3
 > Operating System: This is only for Windows OS, it may or may not work on other OS
 > Program Status: 100% Working
-
-NOTES- pip install gtts
-
-    Additionaly install an extension called audio-preview by sukumo28
-    https://marketplace.visualstudio.com/items?itemName=sukumo28.wav-preview
 '''
 
-from gtts import gTTS
+# pip install pyttsx3
 
-text = "I am a programmer, I write code"
-tts = gTTS(text)
-tts.save("Code With Harry/1. Modules, Comments, Pip/output.mp3")
-print("Speech saved to output.mp3")
+import pyttsx3
+
+engine = pyttsx3.init()
+text = input("Enter what you want me to say: ")
+engine.say(text)
+engine.runAndWait()
