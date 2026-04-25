@@ -1,5 +1,5 @@
 '''
-> Date Created: 12/07/2025
+> Date Created: 25/04/2026
 > Author: Ishaan Rastogi
 > Purpose: To demonstrate the use of lists in Python, including their properties, methods, and operations.
 > Operating System: This is only for Windows OS, it may or may not work on other OS
@@ -11,9 +11,9 @@
 friends = ["Apple", "Orange", 5, 345.06, False, "Aakash", "Rohan"]
 
 # Accessing elements in a list & slicing
-print(friends)  # Output: ['Apple', 'Orange', 5, 345.06, False, 'Aakash', 'Rohan']
-print(friends[0])  # Output: Apple (first element)
-print(friends[1:4])  # Output: ['Orange', 5, 345.06] (slicing from index 1 to 3)
+print(friends, "\n")  # Output: ['Apple', 'Orange', 5, 345.06, False, 'Aakash', 'Rohan']
+print(friends[0], "\n")  # Output: Apple (first element)
+print(friends[1:4], "\n")  # Output: ['Orange', 5, 345.06] (slicing from index 1 to 3)
 print(friends[-1], "\n")  # Output: Rohan (last element)
 
 #List is mutable, meaning it can be changed after creation
@@ -34,6 +34,10 @@ print(friends, "\n")  # Output: ['Grapes', 5, 345.06, False, 'Aakash', 'Rohan', 
 friends.insert(1, "Banana")  # Inserting 'Banana' at index 1
 print(friends, "\n")  # Output: ['Grapes', 'Banana', 5, 345.06, False, 'Aakash', 'Rohan', 'Mango']
 
+# List can have multiple data types 
+l0 = [1, "Hello", 345.06, True, "Ishaan"]
+print(type(l0[3]), "\n") # output <class 'bool'>
+
 # Sorting a list
 # Note: Sorting works only for lists with elements of the same data type
 
@@ -42,13 +46,16 @@ l1.sort()  # Sorting the list in ascending order
 print(l1, "\n")  # Output: [1, 2, 5, 5, 6, 9]
 
 l2 = ["Banana", "Apple", "Cherry"]
-l2.sort()  # Sorting the list of strings in alphabetical order
-print(l2, "\n")  # Output: ['Apple', 'Banana', 'Cherry']
+l2.sort()  # Sorting the list of strings in alphabetical order ( Lowercase alphabets are larger than uppercase alphabets in ASCII value)
+print(l2, "\n")  # Output: ['Banana', 'Cherry', 'Apple']
+
+l2.sort(reverse=True)  # Sorting the list of strings in reverse alphabetical order
+print(l2, "\n")  # Output: ['Cherry', 'Banana', 'Apple']
 
 # Reversing a list
 l1.reverse()  # Reversing the order of elements in the list
 print(l1, "\n")  # Output: [9, 6, 5, 5, 2, 1]
-# You can also use print(friends[::-1]) to reverse the list without modifying the original list
+# You can also use print(l1[::-1]) to reverse the list without modifying the original list
 
 # Finding the index of an element
 index_of_aakash = friends.index("Aakash")  # Finding the index of 'Aakash'
@@ -68,18 +75,18 @@ print(length_of_friends, "\n")  # Output: 7 (number of elements in the list
 # Deep copy means that if you modify the original list, the copy will not change
 
 # Shallow copy (just a reference, not a real copy)
-print("original list:", friends)
+print("original list:", friends, "\n")
 shallow_copy = friends
 shallow_copy[0] = "Pineapple"
-print("After modifying shallow_copy:")
+print("After modifying shallow_copy:\n")
 print("original list:", friends)         # friends is also changed
 print("shallow_copy:", shallow_copy, "\n")
 
 # Deep copy (creates a new list)
-print(friends)
+print(friends, "\n")
 deep_copy = friends.copy()
 deep_copy[1] = "Strawberry"
-print("After modifying deep_copy:")
+print("After modifying deep_copy:\n")
 print("original list:", friends)         # friends is not changed
 print("deep_copy:", deep_copy, "\n")
 
@@ -95,19 +102,18 @@ print(stacked_list, "\n")  # Output: [1, 2, 3, 4, 5, 6]
 
 # Difference between pop() and remove():
 # - pop() removes an element at a specific index (default is the last element) and returns it
-# - remove() removes the first occurrence of a specified value from the list
+# - remove() removes the first occurrence of a specified value from the list and returns nothing
 
-print(friends) # Output: ['Pineapple', 'Banana', 5, 345.06, False, 'Aakash', 'Rohan', 'Mango']
+print(friends, "\n") # Output: ['Pineapple', 'Banana', 5, 345.06, False, 'Aakash', 'Rohan', 'Mango']
 popped_element = friends.pop()  # Removes and returns the last element
-print(popped_element)  # Output: Mango (the last element)
+print(popped_element, "\n")  # Output: Mango (the last element)
 print(friends, "\n") # Output: ['Pineapple', 'Banana', 5, 345.06, False, 'Aakash', 'Rohan']
 
 popped_element_at_index_2 = friends.pop(2)  # Removes and returns the element at index 2
 print(popped_element_at_index_2)  # Output: 5 (the element at index 2)
 print(friends, "\n")  # Output: ['Pineapple', 'Banana', 345.06, False, 'Aakash', 'Rohan']
 
-# List Comprehensions
-# List comprehensions provide a concise way to create lists based on existing lists
+# List Comprehensions -> provide a concise way to create lists based on existing lists
 squared_numbers = [x**2 for x in range(10)]  # Squaring numbers from 0 to 9
 print(squared_numbers, "\n")  # Output: [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
 
@@ -122,10 +128,9 @@ print(Sum, "\n")  # Output: 90 (sum of even numbers from 0 to 18)
 # Nested Lists
 # Lists can contain other lists, creating a nested structure
 nested_list = [[11, 21, 31], [4, 5, 6], [7, 8, 9]]
-print(nested_list)  # Output: [[11, 21, 31], [4, 5, 6], [7, 8, 9]]
-print(nested_list[0])  # Output: [11, 21, 31] (first inner list)
-print(nested_list[1][1])  # Output: 5 (element at index 1 of the second inner list)
-print()
+print(nested_list, "\n")  # Output: [[11, 21, 31], [4, 5, 6], [7, 8, 9]]
+print(nested_list[0], "\n")  # Output: [11, 21, 31] (first inner list)
+print(nested_list[1][1], "\n")  # Output: 5 (element at index 1 of the second inner list)
 
 # List unpacking - assigning list elements to variables
 a, b, c = [1, 2, 3]  # Unpacking
