@@ -38,7 +38,7 @@ class J2 {
         System.out.println(a >= b); // F
         System.out.println(a == b); // F
         System.out.println(a != b); // T
-        System.out.println("");
+        System.out.println(); // 2nd way of New Line
 
         // Logical operators (In Java, these require boolean operands)
         boolean x = true;
@@ -46,9 +46,9 @@ class J2 {
         System.out.println(x && y); // F
         System.out.println(x || y); // T
         System.out.println(!x); // F
-        System.out.println("");
+        System.out.println();
 
-        // Assignment & Shorthand operators
+        // Assignment & Shorthand operators - Never use when you have more than 2 variables in an expression
         a = b;
         System.out.println(a); // 20
         a += b;
@@ -61,7 +61,7 @@ class J2 {
         System.out.println(a); // 20
         a %= b;
         System.out.println(a); // 0
-        System.out.println("");
+        System.out.println();
 
         // Unary operators
         a = 10;
@@ -69,7 +69,7 @@ class J2 {
         System.out.println(e); // 10
         int f = -a;
         System.out.println(f); // -10
-        System.out.println("");
+        System.out.println();
 
         // Increment/Decrement operators
         a = 1;

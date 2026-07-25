@@ -1,5 +1,5 @@
 /*
-> Date Created: 14/04/2026
+> Date Created: 25/07/2026
 > Author: Ishaan Rastogi
 > Purpose: Basics of Java, Variables, and Data Types
 > Operating System: This is only for Windows OS, it may or may not work on other OS
@@ -42,13 +42,11 @@ class J1 {
          * 3. Cannot be a reserved keyword (Compilation error)
          * 4. Cannot contain spaces (Compilation error)
          * 
-         * FUN FACT: Main is not a reserved keyword because it is a special method name
-         * in Java
+         * FUN FACT: Main is not a reserved keyword because it is a special method name in Java
          */
 
         // Convention in every language is to use camelCase for variable names
         int myVariableName = 10;
         String firstName = "Ishaan";
-
     }
 }
