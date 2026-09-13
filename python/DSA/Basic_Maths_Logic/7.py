@@ -7,9 +7,9 @@
 '''
 
 def factorOf(num, result=[]):
-    for i in range(1,num//2):
-        if num%i == 0:
-            result.append(i)
+    for i in range(1,num//2): # range is taken half because any factor can't be larger than half of it except the number itself
+        if num%i == 0: # if remainder is 0
+            result.append(i) # appending factors
     result.append(num)
     return result
 print(factorOf(120))
